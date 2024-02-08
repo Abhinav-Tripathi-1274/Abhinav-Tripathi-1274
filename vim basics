@@ -1,0 +1,54 @@
+-vim basics-
+/* use delete, yank, paste, etc. words in combination with jump words and all these can be combined with numbers */
+
+--insert mode :- to enter in insert mode 
+  with new line downwad = o
+  with new line upward = shift + o
+  with next character = a
+  replace = r
+  jump to next word = w
+  jump full word even separated by hyphen = shift + w (W)
+  back word jump = b 
+  jump to end of a word = e
+  jump to first word of line and shift to insert mode = shift + i (I)
+  jump to end of a line = $ (dollar sign)
+  jump to end of a line = 0
+  jump before any special symbol = t symbol
+  jump onto the special symbol = f symbol
+  jump backward in front/ onto special symbol = shift t (T)/ shift f (F)
+  jump to closing and opening bracket or to directly jump to opening bracket in which sentence lies = % (percentage sign)
+  to delete everthing in parenthesis including them = d %
+  jump to file beginning = gg
+  jump to file end = shift + g (G)
+  to leave = esc
+  
+--normal mode :- for commands
+
+--visual mode :- for selecting
+  to enter = v
+  
+  delete = d
+  delete whole line = dd
+  delete word after cursor = dw
+  delete word before cursor = db
+  delete in a word = diw
+  delete up of the part of the cursor in the line = shift + d (C)
+  delete(/precisely change line) whole line w/o vanishing that line and entering in the insert mode from any mode = cc
+  delete up until the symbol = d t symbol
+  change up of the cursor line = shift + c (C)
+  change in word = ciw
+  change in quotation marks = ci" (quotation mark) // similar for any parentheiesis
+    
+  copying (yanking) = y
+  copying whole line = yy or upper arrow + y or shift + y (Y)
+  
+  paste = p
+  paste in upper line = upper arrow + p (similar for down pasting)
+  10 times pasting = 10p
+
+undo = u
+redo = ctrl + r
+
+3 times undo = 3u
+3 times redo = 3 + ctrl + r 
+
